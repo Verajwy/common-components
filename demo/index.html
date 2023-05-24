@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Common Component Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css"> -->
+    <!-- <link rel="stylesheet" href="demo.css"> -->
+    <script src="com1.js"></script>
+    <script src="com2.js"></script>
+</head>
+
+<body class="markdown-body">
+    <div class="example">
+        <div id="com1"></div>
+        <div id="com2"></div>
+    </div>
+
+    <script>
+      window.com1 = new com1({
+        container: document.getElementById('com1'),
+        name:'com1',
+        description:'123412'
+      })
+      window.com2 = new com2({
+        container: document.getElementById('com2'),
+        name:'com2',
+        description:'123412'
+      })
+    </script>
+</body>
+
+</html>

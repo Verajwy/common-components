@@ -1,0 +1,4 @@
+<div class="container">
+<p>组件2</p>
+{{options.name}}
+</div>
